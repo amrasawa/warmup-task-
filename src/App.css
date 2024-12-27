@@ -1,0 +1,64 @@
+.filterableTraineesTable{
+  width:1000px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  padding-top:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  padding: 10px 0px;
+  display: flex;
+  width:400px;
+  padding: 10px;
+  border:none;
+  background-color: rgba(128, 128, 128, 0.251);
+  border-radius: 2px;;
+}
+
+.trainees-table{
+  width:500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trainee{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid rgba(169, 166, 166, 0.263);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.trainee tr{
+  margin-left: 10px;
+}
+
+.trainee svg{
+  margin:10px;
+}
+
+.button-section{
+  display: flex;
+  gap:40px;
+  justify-content: space-around;
+}
+
+.button{
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+  padding:10px 0;
+  border:none;
+}
+
+.save{
+  background: #007bff;
+  color:white;
+}
